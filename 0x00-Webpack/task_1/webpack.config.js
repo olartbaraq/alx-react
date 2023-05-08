@@ -10,6 +10,8 @@ module.exports = {
         path: path.resolve(__dirname, 'public')
       },
 
+      mode: 'production',
+
     plugins: [
     new HtmlWebpackPlugin({
       title: "Webpack Output",
